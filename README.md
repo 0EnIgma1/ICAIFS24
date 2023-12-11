@@ -1,4 +1,4 @@
-# felicia
+# conf-website
 
 ## How to run
 Install `pnpm` first.
