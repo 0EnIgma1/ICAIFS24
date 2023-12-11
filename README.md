@@ -5,7 +5,7 @@ Install `pnpm` first.
 ```bash
 
 # Clone repo
-$ git clone https://github.com/retraigo/felicia.git && cd felicia
+$ https://github.com/0EnIgma1/conf-website.git && cd conf-website
 
 # Install deps
 $ pnpm i
