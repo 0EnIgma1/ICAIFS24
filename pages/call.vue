@@ -14,11 +14,7 @@
           >
             Call for Papers:
           </div>
-          <div class="flex flex-col items-start w-full">
-            <MiscArticle :news="article" />
-          </div>
-        </div>
-        <div>
+          
           <div class="text-lg">
             <div
               class="
