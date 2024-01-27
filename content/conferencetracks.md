@@ -1,4 +1,4 @@
-### Track 1 - Intelligent Computing, Networking and Security Systems
+### Intelligent Computing, Networking and Security Systems
 * Augmented Reality, Virtual Reality, Bioinformatics
 * Computational Linguistic and Natural Language Processing
 * Computer Vision, Image Processing and Pattern Recognition
@@ -15,7 +15,7 @@
 * Human Computer Interaction and Human Robot Interaction
 
 
-### Track 2 - Textiles and Other Industry 5.0 Applications
+### Textiles and Other Industry 5.0 Applications
 * Smart Textiles and Clothes
 * Sustainable Machine Design
 * Automated Inspection and Maintenance
@@ -27,7 +27,7 @@
 * Industrial Policies Aligning SDG
 * Advanced Industrial Production
 
-### Track 3 - Cybersecurity in Industry 5.0
+### Cybersecurity in Industry 5.0
 *   AI, IoT, Block chain and its security
 *   Distributed firewalls*based data security
 *	Security implications of the quantum computing

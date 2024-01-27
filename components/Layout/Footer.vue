@@ -4,8 +4,8 @@
     class="
       dark:bg-red-700
       md:dark:bg-red-700
-      bg-black
-      md:bg-white
+      bg-red-700
+      md:bg-red-700
       shadow-md
       text-center
       md:text-left
@@ -23,7 +23,7 @@
         px-4
         md:px-8
         text-sm text-white
-        md:text-white
+        text-white
       "
     >
       <div class="flex-1 invisible">

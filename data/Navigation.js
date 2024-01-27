@@ -28,9 +28,14 @@ export default [
   },
   {
     name: `Publication`,
-    route: `/submission`,
+    route: `/publication`,
     key: `publication`,
     icon: `file`,
+  },
+  {
+    name: `Keynote Speakers`,
+    route: `/speakers/keynote`,
+    key: `keynote`,
   },
   {
     name: `Organization`,
@@ -59,9 +64,5 @@ export default [
     key: `organization`,
     icon: `globe`,
   },
-  {
-    name: `Keynote Speakers`,
-    route: `/speakers/keynote`,
-    key: `keynote`,
-  },
+  
 ];

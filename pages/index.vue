@@ -1,8 +1,9 @@
 <template>
   <div class="p-4">
     <div class="flex flex-col space-y-4 w-full items-stretch">
-      <div class="p-1 hidden md:block">
+      <div class="p-1 items-center">
         <img src="/icaifs24.png" alt="ICAIFS" />
+        <!--<img src="/clglogo.jpg" alt="eec"/>-->
       </div>
       <div class="p-4">
         <HomePage />
@@ -44,8 +45,13 @@
             >
               About the Institution
             </div>
+            <div class="flex flex-col space-y-4 w-full items-stretch">
+            <div class="p-4 items-center">
+              <!--<img src="/icaifs24.png" alt="ICAIFS" />-->
+              <img src="/clglogo.jpg" alt="eec"/>
+            </div>
             <p class="py-1 text-justify">
-              Easwari Engineering College was instituted in the academic year
+              <b>Easwari Engineering College</b> was instituted in the academic year
               1996 -1997, with the Approval of Government of Tamil Nadu and
               AICTE, New Delhi. As per Govt., Regulations for affiliation,
               originally the college was affiliated to the University of Madras,
@@ -56,6 +62,7 @@
               interpersonal and intrapersonal skills and attitudes to approach
               life with confidence.
             </p>
+            </div>
             <br />
             <div
               class="py-2 text-lg text-gray-700 dark:text-white font-semibold border-gray-400 border-b-2"
@@ -83,21 +90,8 @@
             <div
               class="py-2 text-lg text-gray-700 dark:text-white font-semibold border-gray-400 border-b-2"
             >
-              Organizers, Partners and Indexing
             </div>
-            <div class="py-1">
-              After the review, Selected papers will be published in one of the
-              following Journals
-              <ul class="space-y-2 list-disc p-4">
-                <li>International Journal of Vehicle Structure and Systems</li>
-                <li>Material Today Proceedings (under process)</li>
-                <li>IOP-Journal of Physics (under process)</li>
-              </ul>
-
-              <p class="text-xl font-bold">
-                (*Publication charges are applicable as per journal norms)
-              </p>
-            </div>
+            
             <div
               class="grid grid-cols-1 md:grid-cols-4 space-y-4 md:space-y-0 md:space-x-4 items-center"
             >
@@ -146,7 +140,11 @@
               </div>
             </div>
           </div>
+          
         </div>
+        <div>
+          </div>
+        
       </div>
     </div>
   </div>
@@ -168,6 +166,6 @@ const { data: about } = await useAsyncData("home", () =>
 );
 
 const { data: articles } = await useAsyncData("home", () =>
-  queryContent("speakers", "keynote").find()
+  queryContent("speakers", "keynotelite").find()
 );
 </script>

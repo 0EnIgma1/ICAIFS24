@@ -46,7 +46,7 @@ export default {
 <template>
   <div
     class="
-      dark:bg-red-700 bg-black md:bg-white md:dark:bg-red-700
+      bg-red-700 
       shadow-md
       max-w-full
       block
@@ -71,8 +71,8 @@ export default {
               justify-center
               p-2
               rounded-md
-              text-white md:text-gray-700 dark:text-white
-              hover:text-gray-700 dark:text-white
+              text-white md:text-white
+              hover:text-blue-400
               focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
             `"
             @click="toggleOn"
@@ -131,7 +131,7 @@ export default {
             </a>
           </div>
           <div
-            :class="`z-40 block h-full top-0 left-0 bg-white dark:bg-gray-900 md:bg-transparent fixed md:static transform transition duration-500 ease-in-out md:translate-x-0 p-8 md:p-0 md:block ${
+            :class="`z-40 block h-full top-0 left-0 bg-red-700 dark:bg-gray-900 md:bg-transparent fixed md:static transform transition duration-500 ease-in-out md:translate-x-0 p-8 md:p-0 md:block ${
               toggleNav ? 'translate-x-0' : '-translate-x-110 md:ml-6'
             }`"
           >
@@ -142,7 +142,7 @@ export default {
                   block
                   md:hidden
                   items-center
-                  bg-black md:bg-white
+                  bg-red-700
                   dark:bg-red-700
                   md:dark:bg-red-700
                   shadow-md
@@ -175,10 +175,10 @@ export default {
                     :href="typeof route == 'string' ? route : '#'"
                     :class="
                       (title === key
-                        ? 'text-gray-700 dark:text-white border-gray-400 '
-                        : 'text-black dark:text-white border-transparent ') +
+                        ? 'text-white border-gray-400 '
+                        : 'text-white border-transparent ') +
                       (Array.isArray(route) ? 'group ' : '') +
-                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:text-gray-800 hover:border-gray-400 border-b-2  block'
+                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:text-gray-400 hover:border-gray-400 border-b-2  block'
                     "
                   >
         
@@ -208,8 +208,8 @@ export default {
                         class="
                           p-2
                           flex flex-nowrap
-                          text-gray-800
-                          hover:text-black
+                          text-white
+                          hover:text-gray-300
                         "
                         :href="route2"
                         >{{ name2 }}</a
@@ -221,7 +221,7 @@ export default {
                     :href="'javascript:void(0)'"
                     @click = "x => setState(key)"
                     :class="
-                      (title === key ? 'text-gray-700 dark:text-white ' : 'dark:text-white text-black ') +
+                      (title === key ? 'text-white dark:text-white ' : 'dark:text-white text-white ') +
                       (Array.isArray(route) ? 'group ' : '') +
                       'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:text-gray-800 hover:border-gray-400 border-transparent border-b-2  block'
                     "
@@ -234,7 +234,8 @@ export default {
                       :class="`
                         absolute
                         flex
-                        bg-white
+                        bg-red-700
+                        dark:bg-gray-800
                         border-t
                         w-48
                         border-gray-400
@@ -257,8 +258,8 @@ export default {
                         class="
                           p-2
                           flex flex-nowrap
-                          text-gray-800
-                          hover:bg-gray-100 hover:text-black
+                          text-white
+                          hover:bg-gray-300 hover:text-black
                         "
                         :href="route2"
                         >{{ name2 }}</a
@@ -269,7 +270,7 @@ export default {
                     v-else
                     :href="typeof route == 'string' ? route : '#'"
                     :class="
-                      (title === key ? 'text-gray-700 dark:text-white ' : 'dark:text-white text-black ') +
+                      (title === key ? 'text-white ' : 'dark:text-white text-white ') +
                       (Array.isArray(route) ? 'group ' : '') +
                       'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:text-gray-800 hover:border-gray-400 border-transparent border-b-2  block'
                     "
@@ -301,8 +302,8 @@ export default {
                         class="
                           p-2
                           flex flex-nowrap
-                          text-gray-800
-                          hover:text-black
+                          text-white
+                          hover:text-gray-300
                         "
                         :href="route2"
                         >{{ name2 }}</a

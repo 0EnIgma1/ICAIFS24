@@ -23,7 +23,7 @@
           >
             Paper Submission:
           </div>
-          <div class="flex flex-col items-start w-full">
+          <div class="flex flex-col items-start w-full text-justify">
             <MiscArticle :news="article" />
           </div>
         </div>

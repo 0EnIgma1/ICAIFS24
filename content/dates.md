@@ -3,7 +3,7 @@ title: Important Dates
 description: Dates to remember.
 ---
 
-## 31st January, 2024
+## 20th February, 2024
 Paper Submission Deadline
 ## 29th February, 2024
 Acceptance Intimation

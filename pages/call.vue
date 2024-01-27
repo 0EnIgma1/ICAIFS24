@@ -9,10 +9,10 @@
               text-gray-700
               dark:text-white
               font-semibold
-              border-gray-400 border-b-2
+              
             "
           >
-            Call for Papers:
+            Call for Papers
           </div>
           
           <div class="text-lg">

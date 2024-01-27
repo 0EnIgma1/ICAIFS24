@@ -21,9 +21,9 @@
               border-gray-400 border-b-2
             "
           >
-            Program Organizer:
+            Conference Organizer:
           </div>
-          <div class="flex flex-col items-start w-full">
+          <div class="flex flex-col items-start w-full text-justify">
             <MiscArticle :news="article" />
           </div>
         </div>

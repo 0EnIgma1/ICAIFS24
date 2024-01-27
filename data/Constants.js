@@ -1,3 +1,3 @@
 export default {
-    Name: "IVCMASM 2022"
+    Name: "ICAIFS 2024"
 }

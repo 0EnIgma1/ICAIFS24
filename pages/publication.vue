@@ -21,9 +21,9 @@
               border-gray-400 border-b-2
             "
           >
-            Paper Submission:
+            Paper Publication:
           </div>
-          <div class="flex flex-col items-start w-full">
+          <div class="flex flex-col items-start w-full text-justify">
             <MiscArticle :news="article" />
           </div>
         </div>
@@ -32,14 +32,14 @@
   </div>
 </template>
 
-<script>
+<!--<script>
 export default {
   head() {
     return {
       title: "Publication",
       meta: [
-        { hid: "title", name: "title", content: "Submission" },
-        { hid: "og:title", name: "og:title", content: "Submission" },
+        { hid: "title", name: "title", content: "publication" },
+        { hid: "og:title", name: "og:title", content: "publication" },
         {
           hid: "description",
           name: "description",
@@ -61,4 +61,27 @@ export default {
     };
   },
 };
+</script> -->
+
+<script setup lang="ts">
+const { data: article } = await useAsyncData("home", () =>
+  queryContent("publication").findOne()
+);
+useHead({
+      title: "Publication",
+      meta: [
+        { hid: "title", name: "title", content: "Publication" },
+        { hid: "og:title", name: "og:title", content: "Publication" },
+        {
+          hid: "description",
+          name: "description",
+          content: "publish",
+        },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content: "publish",
+        },
+      ],
+    })
 </script>
