@@ -1,6 +1,6 @@
 ---
-title: Mr. Karthicraja Gopalakrishnan
-description: Senior Principal Enterprise Architecture Consultant, Infosys
+title: Samuel Tensingh
+description:  Associate Lecturer (VLSI), The University of Sydney
 important: false
-pic: /keynote/p1.jpg
+pic: /keynote/p2.jpg
 ---

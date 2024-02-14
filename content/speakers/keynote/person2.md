@@ -1,6 +1,6 @@
 ---
-title: Dr. Leema Nelson
-description:  Assistant Professor-Research, Chitkara University Research and Innovation Network (CURIN) Chitkara University Punjab,India.
+title: Mr. Karthicraja Gopalakrishnan
+description: Senior Principal Enterprise Architecture Consultant, Infosys
 important: false
-pic: /keynote/p2.jpg
+pic: /keynote/p1.jpg
 ---

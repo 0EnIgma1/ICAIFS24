@@ -166,6 +166,6 @@ const { data: about } = await useAsyncData("home", () =>
 );
 
 const { data: articles } = await useAsyncData("home", () =>
-  queryContent("speakers", "keynotelite").find()
+  queryContent("speakers", "keynote").find()
 );
 </script>
