@@ -46,9 +46,9 @@
               About the Institution
             </div>
             <div class="flex flex-col space-y-4 w-full items-stretch">
-            <div class="p-4 items-center">
+            <div class="p-4 items-center text-center">
               <!--<img src="/icaifs24.png" alt="ICAIFS" />-->
-              <img src="/clglogo.jpg" alt="eec"/>
+              <img src="/clglogo.jpg" alt="eec" class="mx-auto"/>
             </div>
             <p class="py-1 text-justify">
               <b>Easwari Engineering College</b> was instituted in the academic year
